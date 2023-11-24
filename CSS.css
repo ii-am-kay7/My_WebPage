@@ -1,10 +1,68 @@
 h1 {
-    font-size: 28px;
+    font-size: 50px;
   }
   
-  #position {
-    font-size: 18px;
-  }
-  .summary {
-    font-size: 16px;
-  }
+#position {
+  font-size: 30px;
+}
+.summary {
+  font-size: 16px;
+}
+
+#skills {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#skills th, #skills td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+header {
+  background-image: url('https://media.licdn.com/dms/image/D4D16AQG_R_iZQNRepw/profile-displaybackgroundimage-shrink_350_1400/0/1699521457293?e=1706140800&v=beta&t=qo1ymcwfqGesYYHNw6GvvAsqyit8v16cOFrwNjZcfNQ');
+  background-size: cover; /* or contain, depending on your preference */
+  background-position: center center;
+  height: 200px; /* Set the desired height for your header */
+  text-align: center; /* Adjust text alignment as needed */
+  color: white; /* Set text color to contrast with the background */
+  padding: 20px; /* Add padding to center content within the header */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
