@@ -1,12 +1,55 @@
-h1 {
-    font-size: 50px;
-  }
-  
+/* CSS.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url('imgs/header.png');
+  background-size: cover;
+  background-position: center center;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+header h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
 #position {
   font-size: 30px;
 }
+a {
+  color: #000;
+}
+
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: justify;
+  border-bottom: 1px solid #333; /* Add a bottom border */
+  padding-bottom: 20px; /* Add some space between sections */
+}
+
+section:last-child {
+  border-bottom: none;
+}
+
 .summary {
-  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.summary img {
+  max-width: 200px;
+  margin-right: 20px; 
 }
 
 #skills {
@@ -15,54 +58,57 @@ h1 {
 }
 
 #skills th, #skills td {
-    border: 1px solid black;
-    padding: 8px;
-    text-align: left;
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
 }
 
-header {
-  background-image: url('https://media.licdn.com/dms/image/D4D16AQG_R_iZQNRepw/profile-displaybackgroundimage-shrink_350_1400/0/1699521457293?e=1706140800&v=beta&t=qo1ymcwfqGesYYHNw6GvvAsqyit8v16cOFrwNjZcfNQ');
-  background-size: cover; /* or contain, depending on your preference */
-  background-position: center center;
-  height: 200px; /* Set the desired height for your header */
-  text-align: center; /* Adjust text alignment as needed */
-  color: white; /* Set text color to contrast with the background */
-  padding: 20px; /* Add padding to center content within the header */
+#skills th {
+  background-color: #333; 
+  color: white;
+}
+
+ul#certificates {
+  list-style-type: none;
+  padding: 0;
+}
+
+.education-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.education-item img {
+  margin-right: 10px;
+}
+
+.education-details {
+  flex: 1; /* Takes up remaining space */
+}
+
+.education-details h3 {
+  margin: 0;
+}
+
+.education-details p {
+  margin: 5px 0;
+}
+
+footer ul{
+  list-style-type: none;
+}
+
+footer a {
+  color: azure;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer {
+  display: flex;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
 
