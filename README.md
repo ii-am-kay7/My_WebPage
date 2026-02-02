@@ -17,7 +17,6 @@ This is my personal web page — built to showcase who I am, my skills, and my w
 1. Clone repository  
    ```bash
    git clone https://github.com/ii-am-kay7/My_WebPage.git
-
 2.	Open index.html in your browser
 
 ## 💡 What I Learned
